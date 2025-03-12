@@ -4,12 +4,12 @@ main {
 }
 
 aside {
-    width: ;
-    margin : px;
-    border::
-    padding: px;
-    background-color: #;
-    color:;
+    width: 40rem;
+    margin : 50px;
+    border:solid 1px #ccc;
+    padding: 15px;
+    background-color: navy;
+     color: white; 
     text-align: center;
 }
 
@@ -18,12 +18,13 @@ aside img {
     height: auto;
 }
 
+
 main img {
     width: 150px;
-    height: auto;
+    height: auto;   
 }
 
-p {
+p{
     padding: 0;
 }
 
@@ -32,3 +33,4 @@ footer {
     border-top: 1px solid #ccc;
     text-align: center;
 }
+
