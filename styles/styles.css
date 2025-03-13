@@ -3,12 +3,29 @@ main {
 
 }
 
+nav {
+    display: flex;
+    background-color: rgb(10, 74, 100);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
 aside {
     width: 40rem;
     margin : 50px;
     border:solid 1px #ccc;
     padding: 15px;
-    background-color: navy;
+    background-color: rgb(10, 74, 100);
      color: white; 
     text-align: center;
 }
@@ -22,6 +39,12 @@ aside img {
 main img {
     width: 150px;
     height: auto;   
+}
+
+main h1{
+    color: navy;
+    font-size: 2rem;
+    text-align: center;
 }
 
 p{
