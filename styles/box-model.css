@@ -1,20 +1,21 @@
 .callout {
-    max-width: 300px;
+    max-width: 500px;
     margin: 15px;
     border: 1px solid #eee;
     padding: 15px;
-    background-color: rgb(72, 72, 195);
+    background-color: rgb(20, 59, 127);
     color: #f5f4f4;
 }
 
 .callout img {
-    position: float;
-    margin: 10px;
-    border: 1px solid #000;
-    padding: 5px;
+    /* position: float; */
+    margin: 5px;
+    border: 2px solid #000;
+    padding: 3px;
     background-color: #f0f0f0;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+
 	
 }
 
@@ -27,7 +28,7 @@ cite {
     display: flex;
     border-top: 1px solid #eee;
     padding: 5px;
-    text-align: left;
+    text-align: right;
     font-size: small;
     font-style: italic;
 }
