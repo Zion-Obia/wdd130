@@ -1,5 +1,6 @@
 :root
-/* this css rule limits the maximum width of this webpage */
+
+/* this css rule limits the width of this webpage */
 *{
     max-width: 1000px;
 }
@@ -10,15 +11,15 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(115, 115, 210);
-    padding: 20px;
-    margin-bottom: 10px;
-
+    padding: 18px;
+    margin-bottom: 5px;
 }
 
 /* this css rule styles the website logo */
-header img{
-    width: 100px;
+header img {
+    width: 80px;
     height: auto;
+    border-radius: 10px;
 }
 
 /* this css rule styles the navigation */
@@ -31,49 +32,67 @@ nav a {
     border: 1px solid white;
     border-radius: 5px;
     justify-content: space-evenly;
-    list-style: none;
+    font-family: ;
 }
 
-
 /* this css rule styles the H1 and H2 elements */
-h1, h2{
-    font-size: 1.5em;
+h1, h2 {
+    font-size: 1.5rem;
     text-align: center;
-
+    font-family: ;
+    color: ;
 }
 
 /* this css rule styles the paragraphs */
-p{
+p {
     font-size: medium;
+    font-family: ;
 }
 
 /* this css rule  postitions the hero image relatively  */
-.hero{
+.hero {
     position: relative;
-
-
 }
 
 /* this css rule make the hero image fill the width of the container */
-.hero img{
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
 /* the following css rules postions the heading 1 and article absolutely */
-h1{
+h1 {
     position: absolute;
 }
 
-article{
+article {
     position: absolute;
 }
 
+article {
+    border: 10rem;
+    padding: 20px;
+    margin: 100px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
 
-article img{
+/* this css rule floats the article image to the right fits the image within the article border */
+article img {
     float: right;
+    margin: 0 0 10px 15px;
+    border: 1px solid #000;
+    padding: 3px;
+    background-color: #f0f0f0;
+    width: 10px;
+    height: auto;
+    border-radius: 5px;
 }
 
+article p {
+    font-size: small;
+    font-family: ;
+}
 
 
