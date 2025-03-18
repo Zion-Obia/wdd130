@@ -47,18 +47,32 @@ p{
     font-size: medium;
 }
 
-/* this css rule makes the postition of the hero image relative  */
+/* this css rule  postitions the hero image relatively  */
 .hero{
     position: relative;
 
 
 }
 
-/* this css rule should make the hero image fill the width of the container */
+/* this css rule make the hero image fill the width of the container */
 .hero img{
     display: block;
     width: 100%;
     height: auto;
+}
+
+/* the following css rules postions the heading 1 and article absolutely */
+h1{
+    position: absolute;
+}
+
+article{
+    position: absolute;
+}
+
+
+article img{
+    float: right;
 }
 
 
