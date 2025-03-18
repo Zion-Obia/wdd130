@@ -1,0 +1,65 @@
+:root
+/* this css rule limits the maximum width of this webpage */
+*{
+    max-width: 1000px;
+}
+
+/* this css rule styles the header and its content */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(115, 115, 210);
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+/* this css rule styles the website logo */
+header img{
+    width: 100px;
+    height: auto;
+}
+
+/* this css rule styles the navigation */
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+/* this css rule styles the H1 and H2 elements */
+h1, h2{
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+/* this css rule styles the paragraphs */
+p{
+    font-size: medium;
+}
+
+/* this css rule makes the postition of the hero image relative  */
+.hero{
+    position: relative;
+
+
+}
+
+/* this css rule should make the hero image fill the width of the container */
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
