@@ -32,7 +32,7 @@ nav a {
     border: 1px solid white;
     border-radius: 5px;
     justify-content: space-evenly;
-    font-family: ;
+    /* font-family: ; */
 }
 
 /* this css rule styles the H1 and H2 elements */
@@ -64,7 +64,7 @@ p {
 /* the following css rules postions the heading 1 and article absolutely */
 h1 {
     position: absolute;
-    top: 20%;
+    top: 10%;
     width: 100% ;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
@@ -74,13 +74,13 @@ h1 {
 
 article {
     position: absolute;
-    top: 50%;
+    top: 40%;
     border: 10rem;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* this css rule floats the article image to the right fits the image within the article border */
+/* this css rule floats the article image to the right and fits the image within the article border */
 article img {
     float: right;
     margin: 0 0 10px 15px;
@@ -92,6 +92,7 @@ article img {
     border-radius: 5px;
 }
 
+/* this css rule styles the article paragraph */
 article p {
     font-size: small;
     /* font-family: ; */
