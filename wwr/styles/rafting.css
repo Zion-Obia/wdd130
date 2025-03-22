@@ -3,7 +3,7 @@
     --secondary-color: #fdfffc;
     --accent1-color: #f1d302;
     --accent2-color: #c1292e;
-
+    
 }
 
 *{
@@ -12,14 +12,14 @@
 
 
 h1, h2 {
-    color: #000;
+    color: var(--accent1-color);
     text-align: center;
 }
 
 h1 {
     position: absolute;
     top: 15px;
-    color: white;
+    color: var(--secondary-color);
     background-color: rgba(0, 0, 0, 0.5);
     padding: 15px 0;
     width: 100%;
@@ -31,32 +31,27 @@ p {
 }
 
 header {
-    background-color: #235789;
-    justify-items: space-evenly;
-    align-items: center;
-    padding: 10px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
     margin-bottom: 5px;
+    background-color: var(--primary-color);
 }
 
 header img {
-    width: px;
-    height: 100px;
+    width: 60px;
+    height: auto;
     border-radius: 5px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    justify-content: space-evenly;
     padding: 10px;
     margin: 10px;
-    border: 1px solid white;
+    border: 1px solid var(--secondary-color);
     border-radius: 5px;
-}
-
-nav {
-    align-items: center;
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .hero {
@@ -82,11 +77,11 @@ article img {
     width: 15rem;
     border: 1px solid #000;
     padding: 3px;
-    background-color: #f0f0f0;
+    background-color: var(--secondary-color);
 }
 
 article p{
     font-size: medium;
-    color: white;
+    color: var(--secondary-color);
 }
 
