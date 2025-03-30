@@ -4,8 +4,7 @@
     --accent1-color: #f1d302;
     --accent2-color: #c1292e;
     --font-family: "Merriweather", serif;
-    --font-weight: 300; 
-    
+    --font-weight: 300;     
 }
 
 *{
@@ -48,7 +47,7 @@ h1, h2 {
 
 h1 {
     position: absolute;
-    top: 10px;
+    top: 15px;
     color: var(--secondary-color);
     background-color: rgba(0, 0, 0, 0.5);
     padding: 15px 0;
@@ -72,7 +71,7 @@ p {
 
 article {
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
 
@@ -91,7 +90,12 @@ article p{
     color: var(--secondary-color);
 }
 
-footer {
+section {
+    margin-top: 60px;
+
+}
+
+footer { 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
