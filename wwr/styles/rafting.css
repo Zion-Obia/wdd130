@@ -90,6 +90,12 @@ article p{
     color: var(--secondary-color);
 }
 
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
 section p {
     text-align: center;
     font-family: Roboto, serif;
