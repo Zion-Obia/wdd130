@@ -90,10 +90,12 @@ article p{
     color: var(--secondary-color);
 }
 
-section {
-    margin-top: 60px;
-
+section p {
+    text-align: center;
+    font-family: Roboto, serif;
+    font-weight: 500;
 }
+
 
 footer { 
     display: flex;
