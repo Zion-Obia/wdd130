@@ -6,25 +6,92 @@
 
 body{
     font-family: Merriweather, Roboto, serif;
+    font-size: medium;
+    color: #333;
+    background-color: #fff;
 }
 
 header{
     background-color: #ffffff;
     color: navy;
-    padding: 10px 0;
+    padding: 10px;
     text-align: center;
 }
 
 
-main{
-    background-color: #f0f0f0;
+form{
+    display: grid;
     padding: 20px;
-    margin: 20px auto;
+    margin: 0 auto;
     width: 80%;
+    background-color: #eee;
+    border: 1px solid rgb(0 0 0 / o.1);
     border-radius: 10px;
 }
 
+fieldset{
+    display: grid;
+    grid-gap: 5px;
+    margin: 10px;
+    border: 1px solid rgb(0 0 0 / o.2);
+    padding: 10px;
+}
 
+legend{
+    color: navy;
+    padding: 0.5rem;
+    font-size: 1.3em;
+}
+
+label, input,button, select, textarea{
+    font-family: Merriweather, Roboto, serif;
+}
+
+label{
+    text-align: right;
+    padding-right:1rem;
+
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    width: 1.5rem;
+    height: auto;
+    vertical-align: bottom;
+}
+button{
+    margin:1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: navy;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 10px 0;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin: 10px 0;
+}
 footer{
     background-color: #ffffff;
     color: #000;
