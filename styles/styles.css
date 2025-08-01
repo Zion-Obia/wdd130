@@ -1,0 +1,37 @@
+main{
+    max-width: 900px;
+}
+/* this declaration limits the width of the main selector */
+
+aside{
+    width: 300px;
+    margin: 15px;
+    border: 1px solid navy;
+    padding: 10px;
+    background-color: skyblue ;
+    color: #333;
+    text-align: center;
+}
+/* this declaration gives the aside element a width, margin, border, padding, background color and color.  */
+
+aside img{
+    width: 200px;
+    height: auto;
+}
+/* this declaration gives the asidde image a width and a height */
+
+main img{
+    width: 180px;
+    height: auto;
+
+}
+
+p {
+    padding: 0;
+}
+
+footer{
+    margin-top: 10px;
+    border-top: 2px solid navy;
+    text-align: center;
+}
