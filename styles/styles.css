@@ -7,6 +7,7 @@ aside{
     width: 300px;
     margin: 15px;
     border: 1px solid navy;
+    border-radius: 5px;
     padding: 10px;
     background-color: skyblue ;
     color: #333;
@@ -23,6 +24,8 @@ aside img{
 main img{
     width: 180px;
     height: auto;
+    border: 1px solid navy;
+    border-radius: 5px;
 
 }
 
