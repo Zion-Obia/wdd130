@@ -3,6 +3,10 @@ main{
 }
 /* this declaration limits the width of the main selector */
 
+nav{
+    background-color: skyblue;
+    padding: 10px;
+}
 aside{
     width: 300px;
     margin: 15px;
