@@ -1,7 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* this rule contains the universal selector  */
+
 main{
     max-width: 900px;
 }
-/* this declaration limits the width of the main selector */
+/* this rule limits the width of the main selector */
 
 nav{
     background-color: skyblue;
@@ -44,13 +51,13 @@ aside{
     color: #333;
     text-align: center;
 }
-/* this declaration gives the aside element a width, margin, border, padding, background color and color.  */
+/* this rule gives the aside element a width, margin, border, padding, background color and color.  */
 
 aside img{
     width: 200px;
     height: auto;
 }
-/* this declaration gives the asidde image a width and a height */
+/* this rule gives the asidde image a width and a height */
 
 main img{
     width: 180px;
