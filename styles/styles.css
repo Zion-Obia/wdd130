@@ -1,6 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: royalblue;
 }
 /* This CSS rule names the <nav> element as the selected element to apply two style declarations.
 
@@ -20,7 +31,7 @@ The display will change from the default of inline to block.
 Each anchor tag will have padding of 20px; */
 
 h1 {
-    color: darkblue;
+    color: skyblue;
 }
 
 /* This CSS rule selects the h1 element as the selected element and applies the following declaration:
@@ -28,6 +39,7 @@ The foreground, font color is set to darkblue. */
 
 main {
     max-width: 840px;
+    margin-top: 15px;
 }
 /* This css rule references the main element as the selector and applies the following declaration:
 a set maximum width to limit the its width. */
@@ -35,7 +47,8 @@ a set maximum width to limit the its width. */
 main img {
     width: 150px;
     height: auto;
-    border: 2px solid darkblue;
+    float: right;
+    border: 2px solid lightblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -64,23 +77,32 @@ margin: This the the area outside of the border and can extend beyond the physic
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 2px solid darkblue;
-    padding: 1rem;
-    background-color: #f0f8ff;
-    color: #333;
-    box-shadow: 0 0 20px gray;
     text-align: center;
-
+    box-shadow: 0 0 20px gray;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
 }
+aside h2{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
 
 footer {
     margin-top: 15px;
-    border-top: 2px solid darkblue;
+    border-top: 2px solid lightblue;
     text-align: center;
+}
+
+/* class selector */
+.box{
+    margin: 1rem;
+    border: 2px solid lightblue;
+    padding: 1rem;
+    background-color: #f0f8ff;
+    color: #000;
 }
