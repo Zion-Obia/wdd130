@@ -57,7 +57,7 @@ h1 {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--color-accent1);
@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     background-color: var(--color-accent1);
 }
@@ -74,7 +74,7 @@ h2 {
     position: absolute;
     bottom: 75px;
     background-color: var(--color-accent2);
-    padding: 15px;
+    padding: 10px;
     opacity: 0.8;
 }
 
@@ -85,6 +85,6 @@ h2 {
 }
 
  footer {
-    margin-top: 15px;
+    margin-top: 10px;
     border-top: 1px solid lightblue;
  }
