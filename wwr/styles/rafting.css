@@ -73,9 +73,9 @@ h2 {
 .hero article {
     position: absolute;
     bottom: 75px;
-    background-color: var(--color-accent2);
     padding: 10px;
     opacity: 0.8;
+    background-color: var(--color-accent2);    
 }
 
 .hero article img{
