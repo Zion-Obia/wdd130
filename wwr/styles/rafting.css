@@ -24,12 +24,37 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 5px;
+}
+
+nav {
+    /* display: flex; was here, but it's more effective on the ul */
+}
+
+nav ul {
+    display: flex; /* This makes the list items flex items */
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--color-text);
 }
 
-nav, p, section, article{
+p, section, article{
     margin: 15px;
     padding: 8px;
 }
