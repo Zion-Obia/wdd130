@@ -117,9 +117,14 @@ h2 {
     margin-left: 1rem;
 }
 
+.history p{
+       
+}
+
 .history img{
     width: 15rem;
-    float: left;
+   justify-content: center;
+
 }
 
 .adventure {
