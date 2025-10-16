@@ -117,6 +117,17 @@ h2 {
     margin-left: 1rem;
 }
 
+.history-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 32px;
+    align-items: center;
+}
+.history-section {
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
 .history p{
        
 }
