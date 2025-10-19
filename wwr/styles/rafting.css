@@ -131,12 +131,43 @@ h2 {
     margin-bottom: 0.5rem; /* Adds space below the image */
 }
 
+/* Home Page Grid/Card Styles */
+.home-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.card {
+    overflow: auto; /* Contains the floated image */
+    padding: 1.5rem;
+    border: 1px solid var(--color-accent2);
+    border-radius: 8px;
+}
+
+.card img {
+    float: left;
+    width: 200px;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .heading, .trips-hero h1, .trips-hero {
     position: inherit;
     text-align: center;
     margin-top: 10px;
     
 }
+
+/* CTA Section on Home Page */
+.cta {
+    text-align: center;
+}
+
+.cta .button {
+    display: inline-block; /* Allows margin-top to be applied */
+    margin-top: 1rem;
+}
+
 .button {
     text-decoration: none;
     border: 1px solid #eeeeee;
