@@ -117,22 +117,18 @@ h2 {
     margin-left: 1rem;
 }
 
-.history-section {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 32px;
-    align-items: center;
-}
-.history-section {
-    grid-template-columns: 1fr;
-    gap: 16px;
+/* History Section on About Page */
+.history {
+    overflow: auto; /* This contains the floated image */
+    margin-bottom: 2rem;
+    padding: 1rem;
 }
 
-
-.history img{
+.history img {
+    float: left;
     width: 15rem;
-   justify-content: center;
-
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem; /* Adds space below the image */
 }
 
 .heading, .trips-hero h1, .trips-hero {
@@ -159,21 +155,6 @@ h2 {
   text-decoration: none;
 }
 
-
-.adventure {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-}
-
-.adventure h2 {
-    grid-column: 1 / -1; 
-    margin-bottom: 0; 
-}
-
-.adventure img {
-    width: 100%;
-}
 
 /* Contact Form Section */
 .contact-form {
@@ -234,7 +215,8 @@ h2 {
 }
 
 /* Employee Section */
-.employee-section {
+.employee-section,
+.adventure {
   text-align: center;
   margin-bottom: 40px;
 }
@@ -245,13 +227,15 @@ h2 {
   color: var(--color-text);
 }
 
-.employee-profiles {
+.employee-profiles,
+.adventure {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
 
+.adventure figure,
 .employee-profiles figure {
   width: 200px;
   background-color: #ffffff;
@@ -261,12 +245,14 @@ h2 {
   margin: 0;
 }
 
+.adventure img,
 .employee-profiles img {
   width: 100%;
   height: auto;
   display: block;
 }
 
+.adventure figcaption,
 .employee-profiles figcaption {
   padding: 10px;
   font-weight: bold;
