@@ -128,9 +128,6 @@ h2 {
     gap: 16px;
 }
 
-.history p{
-       
-}
 
 .history img{
     width: 15rem;
@@ -138,12 +135,20 @@ h2 {
 
 }
 
-.heading {
+.heading, .trips-hero h1, .trips-hero {
     position: inherit;
     text-align: center;
     margin-top: 10px;
+    
 }
-
+.button {
+    text-decoration: none;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--color-accent1);
+    color: var(--color-text);
+}
 .contact-info {
     text-align: center;
     justify-content: center;  
@@ -275,6 +280,33 @@ h2 {
     align-items: center;
     margin-top: 10px;
     border-top: 1px solid lightblue;
+ }
+
+ /* Trips Page Styles */
+ .trip-descriptions {
+    padding: 1rem;
+ }
+
+ .trip {
+    overflow: auto; /* Contains the floated image */
+    margin-bottom: 3rem;
+    padding: 5rem;
+    border: 1px solid var(--color-accent2);
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+ }
+
+ .trip img {
+    float: left;
+    width: 20rem;
+    margin-right: 1.5rem;
+ }
+
+ .trip:nth-child(even) img {
+    float: right;
+    margin-right: 0;
+    margin-left: 1.5rem;
  }
 
  
